@@ -23,6 +23,13 @@ Outputs
 
 ### Number of [titles] Retiring
 
+<img width="744" alt="Screen Shot 2019-11-18 at 10 21 43 PM" src="https://user-images.githubusercontent.com/44789805/69121893-3fab2c00-0a52-11ea-8dae-3cadce4560ba.png">
+
+
 ### Most Recent Titles
 
+<img width="744" alt="Screen Shot 2019-11-18 at 10 23 25 PM" src="https://user-images.githubusercontent.com/44789805/69121904-48036700-0a52-11ea-9dd3-26c5ab4b2f17.png">
+
 ### Ready for Mentor
+
+<img width="744" alt="Screen Shot 2019-11-18 at 10 24 11 PM" src="https://user-images.githubusercontent.com/44789805/69121920-4fc30b80-0a52-11ea-8987-dbf0201e7481.png">
