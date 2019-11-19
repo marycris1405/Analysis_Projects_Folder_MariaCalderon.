@@ -6,4 +6,5 @@ Create a new list of potential mentors, you will need to create a query that ret
 
 ## ERD Graph
 
-<img width="425" alt="EmployeeDB" src="https://user-images.githubusercontent.com/44789805/69120433-72532580-0a4e-11ea-956f-7cdc621169a1.png">
+<img width="562" alt="ERD" src="https://user-images.githubusercontent.com/44789805/69121015-040f6280-0a50-11ea-8539-396b10424a0c.png">
+
