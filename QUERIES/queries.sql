@@ -102,3 +102,48 @@ ON (dm.dept_no=d.dept_no)
 INNER JOIN current_emp AS ce
 ON (dm.emp_no=ce.emp_no)
 
+----------------------------------------------------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------------------------------------------
+-------------------------------------------------            CHALLENGE             -----------------------------------------------
+----------------------------------------------------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------------------------------------------
+
+-- PART1. 
+-- Number of Titles Retiring
+SELECT ei.emp_no, ei.first_name, ei.last_name, ti.title, ti.from_date, ei.salary
+INTO challenge1
+FROM titles AS ti
+RIGHT JOIN emp_info AS ei
+ON (ti.emp_no=ei.emp_no)
+
+-- PART1.1
+-- Most recent titles
+SELECT ei.emp_no, ei.first_name, ei.last_name, ti.title, ti.from_date, ei.salary
+INTO challenge1
+FROM titles AS ti
+RIGHT JOIN emp_info AS ei
+ON (ti.emp_no=ei.emp_no)
+
+SELECT ei.emp_no, ei.first_name, ei.last_name,
+ti.title, ti.from_date, ei.salary
+INTO challenge1_1
+FROM titles AS ti
+RIGHT JOIN emp_info AS ei
+ON (ti.emp_no=ei.emp_no)
+ORDER BY from_date DESC;
+
+--Most Recent Titles
+SELECT first_name, last_name, count(*) AS frequency
+FROM challenge1_1
+GROUP BY first_name, last_name
+HAVING count(*)>1
+ORDER BY frequency DESC;
+ 
+-- Ready for a Mentor
+SELECT e.emp_no, e.first_name, e.last_name, e.birth_date,
+ti.title
+INTO challenge_mentor
+FROM titles AS ti
+RIGHT JOIN employees AS e
+ON (ti.emp_no=e.emp_no)
+WHERE (e.birth_date BETWEEN '1965-01-01' AND '1965-12-31');
