@@ -19,8 +19,18 @@ Outputs
 
 <img width="562" alt="ERD" src="https://user-images.githubusercontent.com/44789805/69121015-040f6280-0a50-11ea-8539-396b10424a0c.png">
 
+The ERD graph allows us to understand the relationships between the tables as well to understand better and execute correctly the code also to locate better the Primary Key and Foreign Key.
+
 ## SQL
 
+The following images will show the code executed as well as its output. To see the csv files please check the 'CHALLENGE' folder.
+
+The following challenge goals is to:
+ * Use an ERD to understand relationships between SQL tables.
+ * Create new tables in pgAdmin by using different joins.
+ * Write basic- to intermediate-level SQL statements.
+ * Export new tables to a CSV file.
+ 
 ### Number of [titles] Retiring
 
 <img width="744" alt="Screen Shot 2019-11-18 at 10 21 43 PM" src="https://user-images.githubusercontent.com/44789805/69121893-3fab2c00-0a52-11ea-8dae-3cadce4560ba.png">
